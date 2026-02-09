@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(154, 86, 132);
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(59, 4, 59);
+    text-shadow: -2px 2px 7px #ffffff;
+}
+
+button {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 72);
+    color: rgb(7, 163, 62);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #057605;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+#no-button {
+    background-color: #a70b7b;
+    color: rgb(235, 140, 219);
+    border: 2px solid #ff5722;
+}
